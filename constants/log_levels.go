@@ -1,0 +1,8 @@
+package constants
+
+const (
+	LOG_LEVEL_DEBUG = "DEBUG"
+	LOG_LEVEL_ERROR = "ERROR"
+	LOG_LEVEL_INFO  = "INFO"
+	LOG_LEVEL_WARN  = "WARN"
+)
