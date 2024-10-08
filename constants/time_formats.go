@@ -1,0 +1,6 @@
+package constants
+
+const (
+	HUMAN_READABLE_TIME_FORMAT = "2 Jan 2006 | Monday | 15:04:05 | MST"
+	SIMPLE_LOGGER_TIME_FORMAT  = "2006-01-02T15:04:05Z"
+)
