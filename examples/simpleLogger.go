@@ -20,9 +20,11 @@ package main
 // 	)
 // 	if err != nil {
 // 		fmt.Println("error initializing logger: ", err)
+// 		return
 // 	} else {
 // 		lggr.Debug(context.Background(), "debug log should be printed now")
 // 		lggr.Info(context.Background(), "info log always prints")
+// 		return
 // 	}
 
 // }
